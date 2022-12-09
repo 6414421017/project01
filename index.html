@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>BTS</title>
+    </head>
+    <body class="bg-gradient-to-r from-blue-200 to-teal-100">
+
+        <nav class="container fixed max-w-full">
+
+            <div class="flex justify-evenly items-center py-4 bg-violet-400">
+                
+                <div class="flex-shrink-0 ml-10">
+                    <span class="text-4xl text-black font-bold">BTS</span>
+                </div><!--logo-->
+                  
+                <ul class="hidden md:flex overflow-x-hidden mr-10 font-bold text-xl text-white">
+                    <li>
+                        <a class="transition duration-700 ease-out hover:text-violet-400 bg-teal-300 px-5 rounded-md" href="index.html">
+                            HOME</a>
+                    </li>
+                    <li>
+                        <a class="transition duration-700 ease-out hover:text-teal-300 hover:bg-violet-500 px-5 rounded-md" href="about.html">
+                            ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="transition duration-700 ease-out hover:text-teal-300 hover:bg-violet-500 px-5 rounded-md" href="members.html">
+                            MEMBERS</a>
+                    </li>
+                    <li>
+                        <a class="transition duration-700 ease-out hover:text-teal-300 hover:bg-violet-500 px-5 rounded-md" href="reward.html">
+                            REWARD</a>
+                    </li>
+                    <li>
+                        <a class="transition duration-700 ease-out hover:text-teal-300 hover:bg-violet-500 px-5 rounded-md" href="album.html">
+                            ALBUM</a>
+                    </li>
+                </ul>
+
+                <div class="hidden md:flex overflow-x-hidden font-medium">
+                    <button class="bg-white text-1xl cursor-pointer duration-500 px-3 py-1 mx-1 hover:bg-teal-300 hover:text-white rounded">
+                        Login
+                      </button>
+                    <button class="bg-gray-300 text-1xl cursor-pointer duration-500 px-3 py-1 mx-1 hover:bg-teal-300 hover:text-white rounded">
+                        Register
+                    </button>
+                </div>
+
+                <span class="cursor-pointer mx-2 md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </span>
+
+            </div>    
+        </nav><!--end nabigator -->
+        
+        <div class="container p-16 m-50 space-y-10">
+            <div class="bg-white flex flex-wrap justify-evenly items-center mt-10 md:mx-32 md:py-7 rounded-3xl">
+                <img class="transition duration-700 delay-150 ease-out hover:scale-125 border-4 border-solid border-t-violet-500 border-l-violet-500 border-b-indigo-500 border-r-indigo-500 shadow-2xl shadow-indigo-500/50 rounded-lg" src="data:image/jpeg;base64,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"> 
+                <iframe class="transition duration-700 delay-150 ease-out hover:scale-105 border-4 border-solid border-t-violet-500 border-l-violet-500 border-b-indigo-500 border-r-indigo-500 shadow-2xl shadow-indigo-500/50 rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/WMweEpGlu_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="bg-indigo-500 text-white p-10 space-y-3 rounded-3xl">
+                <h1 class="text-center text-2xl font-bold">BTS</h1>
+                <p class="text-lg text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    เมื่อคำว่า BTS ของคนไทยไม่ได้แปลว่า รถไฟฟ้า เพียงอย่างเดียว แต่หมายถึงวงบอยแบนด์เกาหลีที่โด่งดังไปทั่วโลก สร้างกระแส K-POP
+                    ให้เป็นที่รู้จักและยอมรับกันอย่างแพร่หลายทั้งในวงการเพลงเกาหลีใต้, ญี่ปุ่น, ไทย และรวมไปถึงโซนตะวันตกอย่างสหรัฐอเมริกาและแคนาดาด้วย
+                    ไม่ว่าจะปล่อยเพลงออกมากี่ซิงเกิล อันดับหนึ่งของทุกชาร์ตก็ต้องตกเป็นของพวกเขาเหล่านี้ เอาล่ะ เกริ่นมาขนาดนี้แล้ว อย่ารอช้าเลยดีกว่า
+                    ไปดูประวัติความเป็นมาของวง และสมาชิกทั้ง 7 คนของ BTS กันเลยค่ะ
+                </p>
+            </div>
+
+            <div>
+                <img class="border-4 border-white max-w-auto rounded-lg" src="https://pbs.twimg.com/media/Egzd4flVgAAD_5p.jpg:large">
+            </div>
+        </div>
+
+        <footer class="bg-violet-400 text-white justify-center text-center font-bold py-3 w-full">
+            <p>&copy; 2022 by witchaphon 6414421017</p>
+        </footer>
+
+    </body>
+</html>
